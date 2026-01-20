@@ -24,7 +24,7 @@ const DashboardWelcome = ({ user }: { user: NavUserTypes }) => {
    return role ? colors[role] || 'text-slate-600' : 'text-slate-600';
   };
 
-  const getCurrentDate = () => {
+  const getCurrentDate = () => { 
     const options: Intl.DateTimeFormatOptions = { 
       weekday: 'long', 
       year: 'numeric', 
